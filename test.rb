@@ -1,4 +1,6 @@
-require 'rubygems' #这句根据情况可选
+﻿
+
+require 'rubygems' #这句根据情况可选1111
 require 'watir'
 ie = Watir::IE.new #新建一个IE浏览器的实例
 ie.goto("这里输入百度首页网址") #打开百度首页，因为百科内容不能含网址，所以这里没有写成url
